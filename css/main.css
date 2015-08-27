@@ -109,7 +109,7 @@ footer {
     				opacity: .8; } }
 		  	    @media only screen and (max-width: 40.063em) {
 	  .hero {
-		  background: url(../img/hero-keyboard-sm) no-repeat top center; }
+		  background: url(../img/hero-keyboard-sm.jpg) no-repeat top center; }
 		  .hero:before {
 			      content: '';
     				position: absolute;
