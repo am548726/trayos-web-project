@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trayos | Welcome</title>
+     <link rel="stylesheet" type="text/css" href="css/slick.css"/>
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
@@ -52,6 +53,25 @@
   </div>
 
 </section>
+
+<div class="row">
+   	<div class="single-item">
+  		<div>
+        	<h2>Rule 1</h2>
+            <p>Respect each other, it's not a battlefield.</p>
+        </div>
+  		<div>
+        	<h2>Rule 2</h2>
+        	<p>Ask before posting an outside link</p>
+        </div>
+  		<div>
+        	<h2>Rule 3</h2>
+        	<p>Avoid spam and excessive profanity.</p>
+        </div>
+  	</div>
+   </div>
+
+
 
     <div class="row">
       <div class="large-8 medium-8 columns">
@@ -224,6 +244,17 @@
 </footer>
     
     <script src="js/vendor/jquery.js"></script>
+    
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    
+    <script type="text/javascript">
+    $(document).ready(function(){
+      $('.single-item').slick({
+        
+      });
+    });
+  </script>
+  
     <script src="js/foundation.min.js"></script>
     <script>
       $(document).foundation();
