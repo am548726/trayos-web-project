@@ -45,7 +45,9 @@
   @media only screen and (min-width: 40.063em) {
     .name {
       float: left; } }
-/*===HERO===*/
+/*============================================================================================================
+	Matt's Hero
+============================================================================================================*/
 .hero {
   background: url(../img/hero-keyboard-lg.jpg) no-repeat center top;/*===HERO IMAGE===*/
   background-size: 100rem;
@@ -73,8 +75,8 @@
   .hero p {
     color: #fff;
     line-height: 1.75em;
-	font-family: Museo;
-	font-weight:200;
+	font-family: 1.75rem Museo;
+	font-weight: lighter;
     text-align: center;
     margin-bottom: 2rem; }
 	    @media only screen and (max-width: 70.063em) {
@@ -99,7 +101,7 @@
 		  .hero:before {
 			      content: '';
     				position: absolute;
-    				top: 8.3rem;
+    				top: 8.7rem;
     				right: 0;
     				bottom: -7.75rem;
     				left: 0;
