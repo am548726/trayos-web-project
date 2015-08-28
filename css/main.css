@@ -13,11 +13,12 @@ footer {
 .row {
   max-width: 100%; }
 .menu {
-  background-color: #292c2f;
+  background-color: #2f363b;
   padding: 1.5rem 3rem;
   height: auto; }
   .menu .inline-list {
-    text-align: center; }
+    text-align: center;
+	font-family: Museo; }
     .menu .inline-list li {
       float: none;
       display: inline-block; }
@@ -25,26 +26,27 @@ footer {
       color: #fff;
       padding-bottom: 0.5rem; }
       .menu .inline-list a:hover {
-        color: dodgerblue;
+        color: #f37721;
         transition: all .3s ease-in-out; }
     .menu .inline-list .active a {
-      color: dodgerblue; }
+      color: #f37721; }
   @media only screen and (min-width: 40.063em) {
     .menu {
       height: 5rem; }
       .menu .inline-list {
         float: right; }
       .menu a:hover {
-        border-bottom: 2px solid dodgerblue; } }
+        border-bottom: 2px solid #f37721; } }
 
 .name {
   text-align: center;
   font-size: 1.5rem;
+  font-family: Museo Slab;
   line-height: 1;
   margin: 0 0 1rem 0;
   color: #fff; }
   .name i {
-    color: dodgerblue;
+    color: #f37721;
     margin-right: 0.5rem; }
   @media only screen and (min-width: 40.063em) {
     .name {
@@ -70,15 +72,15 @@ footer {
     transform: translateY(-50%); }
   .hero h1 {
     color: #fff;
-    font-size: 1.5rem;
+	font: italic bolder 8.5rem museo slab;
     line-height: 1.5em;
     letter-spacing: -0.025em;
-    font-weight: 300;
     text-align: center; }
   .hero p {
     color: #fff;
     line-height: 1.75em;
-    font-weight: 200;
+	font-family: Museo;
+	font-weight:200;
     text-align: center;
     margin-bottom: 2rem; }
 	    @media only screen and (max-width: 70.063em) {
@@ -99,7 +101,7 @@ footer {
     				opacity: .8; } }
 		  	    @media only screen and (max-width: 40.063em) {
 	  .hero {
-		  background: url(../img/hero-keyboard-sm.jpg) no-repeat top center; } /*===RESPONSIVE IMAGE BREAK===*/
+		  background: url(../img/hero-keyboard-sm.jpg) no-repeat center top; } /*===RESPONSIVE IMAGE BREAK===*/
 		  .hero:before {
 			      content: '';
     				position: absolute;
@@ -114,7 +116,7 @@ footer {
     background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
     				opacity: .8; }
 					    .hero h1 {
-      						padding-top: 4.5rem;
+      						padding-top: 10.5rem;
       						text-align: right;
       						font-size: 2.5rem; }
     					.hero p {
