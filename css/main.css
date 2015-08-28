@@ -57,7 +57,7 @@
     right: 0;
     bottom: -5rem;
     left: 0;
-    background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+    background-image: linear-gradient(to bottom right, #002f4b, #f37721);
     opacity: .8; }
   .hero .intro {
     padding: 3rem;
@@ -87,11 +87,11 @@
     				right: 0;
     				bottom: -4.5rem;
     				left: 0;
-    background-image: -moz-linear-gradient(to bottom right, #002f4b, #dc4225);
-    background-image: -webkit-linear-gradient(to bottom right, #002f4b, #dc4225);
-    background-image: -webkit-gradient(linear, 100% 100%, 0 0, from(#002f4b), to(#dc4225));
-    background-image: -o-linear-gradient(to bottom right, #002f4b, #dc4225);
-    background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+    background-image: -moz-linear-gradient(to bottom right, #002f4b, #f37721);
+    background-image: -webkit-linear-gradient(to bottom right, #002f4b, #f37721);
+    background-image: -webkit-gradient(linear, 100% 100%, 0 0, from(#002f4b), to(#f37721));
+    background-image: -o-linear-gradient(to bottom right, #002f4b, #f37721);
+    background-image: linear-gradient(to bottom right, #002f4b, #f37721);
     				opacity: .8; } }
 		  	    @media only screen and (max-width: 40.063em) {
 	  .hero {
@@ -103,11 +103,11 @@
     				right: 0;
     				bottom: -7.75rem;
     				left: 0;
-    background-image: -moz-linear-gradient(to bottom right, #002f4b, #dc4225);
-    background-image: -webkit-linear-gradient(to bottom right, #002f4b, #dc4225);
-    background-image: -webkit-gradient(linear, 100% 100%, 0 0, from(#002f4b), to(#dc4225));
-    background-image: -o-linear-gradient(to bottom right, #002f4b, #dc4225);
-    background-image: linear-gradient(to bottom right, #002f4b, #dc4225);
+    background-image: -moz-linear-gradient(to bottom right, #002f4b, #f37721);
+    background-image: -webkit-linear-gradient(to bottom right, #002f4b, #f37721);
+    background-image: -webkit-gradient(linear, 100% 100%, 0 0, from(#002f4b), to(#f37721));
+    background-image: -o-linear-gradient(to bottom right, #002f4b, #f37721);
+    background-image: linear-gradient(to bottom right, #002f4b, #f37721);
     				opacity: .8; }
 					    .hero h1 {
       						padding-top: 10.5rem;
