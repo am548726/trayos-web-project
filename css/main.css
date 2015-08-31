@@ -2,138 +2,162 @@
 /* Add your custom css here instead of the css foundation file */
 
 /*============================================================================================================
-	Matt's Header
+	HEADER
 ============================================================================================================*/
 .row {
-  max-width: 100%; }
+	max-width: 100%;
+}
 .menu {
-  background-color: #2f363b;
-  padding: 1.5rem 3rem;
-  height: auto; }
-  .menu .inline-list {
-    text-align: center;
-	font-family: Museo; }
-    .menu .inline-list li {
-      float: none;
-      display: inline-block; }
-    .menu .inline-list a {
-      color: #fff;
-      padding-bottom: 0.5rem; }
-      .menu .inline-list a:hover {
-        color: #f37721;
-        transition: all .3s ease-in-out; }
-    .menu .inline-list .active a {
-      color: #f37721; }
-  @media only screen and (min-width: 40.063em) {
-    .menu {
-      height: 5rem; }
-      .menu .inline-list {
-        float: right; }
-      .menu a:hover {
-        border-bottom: 2px solid #f37721; } }
+	background-color: #2f363b;
+	padding: 1.5rem 3rem;
+	height: auto;
+}
+.menu .inline-list {
+	text-align: center;
+	font-family: Museo;
+}
+.menu .inline-list li {
+	float: none;
+	display: inline-block;
+}
+.menu .inline-list a {
+	color: #fff;
+	padding-bottom: 0.5rem;
+}
+.menu .inline-list a:hover {
+	color: #f37721;
+	transition: all .3s ease-in-out;
+}
+.menu .inline-list .active a {
+	color: #f37721;
+}
 
+@media only screen and (min-width: 40.063em) {
+.menu {
+	height: 5rem;
+}
+.menu .inline-list {
+	float: right;
+}
+.menu a:hover {
+	border-bottom: 2px solid #f37721;
+}
+}
 .name {
-  text-align: center;
-  font-size: 1.5rem;
-  font-family:Museo;
-  line-height: 1;
-  margin: 0 0 1rem 0;
-  color: #fff; }
-  .name i {
-    color: #f37721;
-    margin-right: 0.5rem; }
-  @media only screen and (min-width: 40.063em) {
-    .name {
-      float: left; } }
+	text-align: center;
+	font-size: 1.5rem;
+	font-family: Museo;
+	line-height: 1;
+	margin: 0 0 1rem 0;
+	color: #fff;
+}
+.name i {
+	color: #f37721;
+	margin-right: 0.5rem;
+}
+
+@media only screen and (min-width: 40.063em) {
+.name {
+	float: left;
+}
+}
 /*============================================================================================================
-	Matt's Hero
+	HERO
 ============================================================================================================*/
 .hero {
-  background: url(../img/hero-keyboard-lg.jpg) no-repeat center top;/*===HERO IMAGE===*/
-  background-size: 100rem;
-  height: 100vh; }
-  .hero:before {
-    content: '';
-    position: absolute;
-    top: 5rem;
-    right: 0;
-    bottom: -5rem;
-    left: 0;
-    background-image: linear-gradient(to bottom right, #002f4b, #f37721);
-    opacity: .8; }
-  .hero .intro {
-    padding: 3rem;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%); }
-  .hero h1 {
-    color: #fff;
+	background: url(../img/hero-keyboard-lg.jpg) no-repeat center top;/*===HERO IMAGE===*/
+	background-size: 100rem;
+	height: 100vh;
+}
+.hero:before {
+	content: '';
+	position: absolute;
+	top: 5rem;
+	right: 0;
+	bottom: -5rem;
+	left: 0;
+	background-image: linear-gradient(to bottom right, #002f4b, #f37721);
+	opacity: .8;
+}
+.hero .intro {
+	padding: 3rem;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.hero h1 {
+	color: #fff;
 	font: italic bolder 8.5rem museo slab;
-    line-height: 1.5em;
-    letter-spacing: -0.025em;
-    text-align: center; }
-  .hero p {
-    color: #fff;
-    line-height: 1.75em;
-	font-family: 1.75rem Museo;
+	line-height: 1.5em;
+	letter-spacing: -0.025em;
+	text-align: center;
+}
+.hero p {
+	color: #fff;
+	line-height: 1.75em;
+	font-family: Museo;
+	font-size: 1.75rem;
 	font-weight: lighter;
-    text-align: center;
-    margin-bottom: 2rem; }
-	    @media only screen and (max-width: 70.063em) {
-	  .hero {
-		  background: url(../img/hero-keyboard-m.jpg) no-repeat center top; } /*===RESPONSIVE IMAGE BREAK===*/
-		  .hero:before {
-			      content: '';
-    				position: absolute;
-    				top: 5rem;
-    				right: 0;
-    				bottom: -4.5rem;
-    				left: 0;
-    background-image: -moz-linear-gradient(to bottom right, #002f4b, #f37721);
-    background-image: -webkit-linear-gradient(to bottom right, #002f4b, #f37721);
-    background-image: -webkit-gradient(linear, 100% 100%, 0 0, from(#002f4b), to(#f37721));
-    background-image: -o-linear-gradient(to bottom right, #002f4b, #f37721);
-    background-image: linear-gradient(to bottom right, #002f4b, #f37721);
-    				opacity: .8; } }
-		  	    @media only screen and (max-width: 40.063em) {
-	  .hero {
-		  background: url(../img/hero-keyboard-sm.jpg) no-repeat center top; } /*===RESPONSIVE IMAGE BREAK===*/
-		  .hero:before {
-			      content: '';
-    				position: absolute;
-    				top: 8.7rem;
-    				right: 0;
-    				bottom: -7.75rem;
-    				left: 0;
-    background-image: -moz-linear-gradient(to bottom right, #002f4b, #f37721);
-    background-image: -webkit-linear-gradient(to bottom right, #002f4b, #f37721);
-    background-image: -webkit-gradient(linear, 100% 100%, 0 0, from(#002f4b), to(#f37721));
-    background-image: -o-linear-gradient(to bottom right, #002f4b, #f37721);
-    background-image: linear-gradient(to bottom right, #002f4b, #f37721);
-    				opacity: .8; }
-					    .hero h1 {
-      						padding-top: 10.5rem;
-      						text-align: right;
-      						font-size: 2.5rem; }
-    					.hero p {
-      						text-align: right; }  }
-							
-							
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 70.063em) {
+.hero {
+	background: url(../img/hero-keyboard-m.jpg) no-repeat center top;
+} /*===RESPONSIVE IMAGE BREAK===*/
+.hero:before {
+	content: '';
+	position: absolute;
+	top: 5rem;
+	right: 0;
+	bottom: -4.5rem;
+	left: 0;
+	background-image: -moz-linear-gradient(to bottom right, #002f4b, #f37721);
+	background-image: -webkit-linear-gradient(to bottom right, #002f4b, #f37721);
+	background-image: -webkit-gradient(linear, 100% 100%, 0 0, from(#002f4b), to(#f37721));
+	background-image: -o-linear-gradient(to bottom right, #002f4b, #f37721);
+	background-image: linear-gradient(to bottom right, #002f4b, #f37721);
+	opacity: .8;
+}
+}
+
+@media only screen and (max-width: 40.063em) {
+.hero {
+	background: url(../img/hero-keyboard-sm.jpg) no-repeat center top;
+} /*===RESPONSIVE IMAGE BREAK===*/
+.hero:before {
+	content: '';
+	position: absolute;
+	top: 8.7rem;
+	right: 0;
+	bottom: -7.75rem;
+	left: 0;
+	background-image: -moz-linear-gradient(to bottom right, #002f4b, #f37721);
+	background-image: -webkit-linear-gradient(to bottom right, #002f4b, #f37721);
+	background-image: -webkit-gradient(linear, 100% 100%, 0 0, from(#002f4b), to(#f37721));
+	background-image: -o-linear-gradient(to bottom right, #002f4b, #f37721);
+	background-image: linear-gradient(to bottom right, #002f4b, #f37721);
+	opacity: .8;
+}
+.hero h1 {
+	padding-top: 10.5rem;
+	text-align: right;
+	font-size: 2.5rem;
+}
+.hero p {
+	text-align: right;
+}
+}
 
 /*============================================================================================================
 	End of Header
 ============================================================================================================*/
 
-
-
-
-
-							
 /*============================================================================================================
 	Jandro's Footer
 ============================================================================================================*/
-							
-							
+
 /*============================================================================================================
 	End of Footer
-============================================================================================================*/							
+============================================================================================================*/
