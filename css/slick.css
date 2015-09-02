@@ -184,11 +184,11 @@ h2 {
 
 .slick-prev:before
 {
-    content: 'previous';
+    content: '←';
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: 'next';
+    content: '→';
 }
 
 .slick-next
