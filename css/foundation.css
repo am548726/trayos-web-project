@@ -70,12 +70,20 @@ a:hover {
 	cursor: pointer;
 }
 img {
+<<<<<<< HEAD
 	max-width: 100%;
 	height: auto;
 }
 #aboutme-background-img {
 	background: url(../img/about-me-img2.jpg) no-repeat center top;
 }
+=======
+  max-width: 100%;
+  height: auto; }
+  
+
+
+>>>>>>> origin/master
 img {
 	-ms-interpolation-mode: bicubic;
 }
