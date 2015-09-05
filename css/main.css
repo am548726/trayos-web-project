@@ -31,18 +31,6 @@
 .menu .inline-list .active a {
 	color: #f37721;
 }
-
-@media only screen and (min-width: 40.063em) {
-.menu {
-	height: 5rem;
-}
-.menu .inline-list {
-	float: right;
-}
-.menu a:hover {
-	border-bottom: 2px solid #f37721;
-}
-}
 .name {
 	text-align: center;
 	font-size: 1.5rem;
@@ -54,6 +42,22 @@
 .name i {
 	color: #f37721;
 	margin-right: 0.5rem;
+}
+.name img {
+	width: 2rem;
+	height: 3rem;
+}
+
+@media only screen and (min-width: 40.063em) {
+.menu {
+	height: 5rem;
+}
+.menu .inline-list {
+	float: right;
+}
+.menu a:hover {
+	border-bottom: 2px solid #f37721;
+}
 }
 
 @media only screen and (min-width: 40.063em) {
@@ -147,15 +151,14 @@
 	opacity: .8;
 }
 .hero h1 {
-	padding-top: 10.5rem;
+	padding-top: 1.5rem;
 	text-align: right;
-	font-size: 2.5rem;
+	font-size: 8.5rem;
 }
 .hero p {
 	text-align: right;
 }
 }
-
 /*============================================================================================================
 	End of Header
 ============================================================================================================*/
@@ -164,19 +167,17 @@
 	KeeKay's About Me
 ============================================================================================================*/
  
- #aboutme-background-img {
-	background:url(../img/about-me-img2.jpg) no-repeat center top;
+#aboutme-background-img {
+	background: url(../img/about-me-img2.jpg) no-repeat center top;
 	background-size: 70rem;
-    height: 70vh; 
+	height: 70vh;
 }
-
 #aboutme-header {
-	color:#F1772F;
-	margin:10rem 0 1rem 2rem;
+	color: #F1772F;
+	margin: 10rem 0 1rem 2rem;
 }
-
 #aboutme-paragraph {
-	margin:0 0 0 2rem;
+	margin: 0 0 0 2rem;
 }
 /* ============================================================================================================
 	End of KeeKay's About Me
@@ -186,11 +187,10 @@
 	KeeKay's Carousel
 ============================================================================================================*/
 .rule-topmargin {
-	margin:2rem 0 0 0;
+	margin: 2rem 0 0 0;
 }
-
 .rule-bottommargin {
-	margin:0 0 2rem 0;
+	margin: 0 0 2rem 0;
 }
 
 /* ============================================================================================================
