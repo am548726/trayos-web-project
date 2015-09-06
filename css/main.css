@@ -71,7 +71,7 @@
 .hero {
 	background: url(../img/hero-keyboard-lg.jpg) no-repeat center top;/*===HERO IMAGE===*/
 	background-size: 100rem;
-	height: 100vh;
+	height: 100%;
 }
 .hero:before {
 	content: '';
@@ -121,7 +121,7 @@
 	position: absolute;
 	top: 5rem;
 	right: 0;
-	bottom: -4.05rem;
+	bottom: -5rem;
 	left: 0;
 	background-image: -moz-linear-gradient(to bottom right, #002f4b, #f37721);
 	background-image: -webkit-linear-gradient(to bottom right, #002f4b, #f37721);
@@ -141,7 +141,7 @@
 	position: absolute;
 	top: 10.1rem;
 	right: 0;
-	bottom: -8.75rem;
+	bottom: -10.2rem;
 	left: 0;
 	background-image: -moz-linear-gradient(to bottom right, #002f4b, #f37721);
 	background-image: -webkit-linear-gradient(to bottom right, #002f4b, #f37721);
