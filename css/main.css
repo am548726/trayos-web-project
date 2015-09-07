@@ -31,18 +31,6 @@
 .menu .inline-list .active a {
 	color: #f37721;
 }
-
-@media only screen and (min-width: 40.063em) {
-.menu {
-	height: 5rem;
-}
-.menu .inline-list {
-	float: right;
-}
-.menu a:hover {
-	border-bottom: 2px solid #f37721;
-}
-}
 .name {
 	text-align: center;
 	font-size: 1.5rem;
@@ -54,6 +42,22 @@
 .name i {
 	color: #f37721;
 	margin-right: 0.5rem;
+}
+.name img {
+	width: 2rem;
+	height: 3rem;
+}
+
+@media only screen and (min-width: 40.063em) {
+.menu {
+	height: 5rem;
+}
+.menu .inline-list {
+	float: right;
+}
+.menu a:hover {
+	border-bottom: 2px solid #f37721;
+}
 }
 
 @media only screen and (min-width: 40.063em) {
@@ -67,7 +71,7 @@
 .hero {
 	background: url(../img/hero-keyboard-lg.jpg) no-repeat center top;/*===HERO IMAGE===*/
 	background-size: 100rem;
-	height: 100vh;
+	height: 100%;
 }
 .hero:before {
 	content: '';
@@ -117,7 +121,7 @@
 	position: absolute;
 	top: 5rem;
 	right: 0;
-	bottom: -4.5rem;
+	bottom: -5rem;
 	left: 0;
 	background-image: -moz-linear-gradient(to bottom right, #002f4b, #f37721);
 	background-image: -webkit-linear-gradient(to bottom right, #002f4b, #f37721);
@@ -135,9 +139,9 @@
 .hero:before {
 	content: '';
 	position: absolute;
-	top: 8.7rem;
+	top: 10.1rem;
 	right: 0;
-	bottom: -7.75rem;
+	bottom: -10.2rem;
 	left: 0;
 	background-image: -moz-linear-gradient(to bottom right, #002f4b, #f37721);
 	background-image: -webkit-linear-gradient(to bottom right, #002f4b, #f37721);
@@ -147,36 +151,33 @@
 	opacity: .8;
 }
 .hero h1 {
-	padding-top: 10.5rem;
+	padding-top: 1.5rem;
 	text-align: right;
-	font-size: 2.5rem;
+	font-size: 8.5rem;
 }
 .hero p {
 	text-align: right;
 }
 }
-
 /*============================================================================================================
-	End of Header
+	End of Header / Hero
 ============================================================================================================*/
 
 /* ============================================================================================================
 	KeeKay's About Me
 ============================================================================================================*/
  
- #aboutme-background-img {
-	background:url(../img/about-me-img2.jpg) no-repeat center top;
+#aboutme-background-img {
+	background: url(../img/about-me-img2.jpg) no-repeat center top;
 	background-size: 70rem;
-    height: 70vh; 
+	height: 70vh;
 }
-
 #aboutme-header {
-	color:#F1772F;
-	margin:10rem 0 1rem 2rem;
+	color: #F1772F;
+	margin: 10rem 0 1rem 2rem;
 }
-
 #aboutme-paragraph {
-	margin:0 0 0 2rem;
+	margin: 0 0 0 2rem;
 }
 /* ============================================================================================================
 	End of KeeKay's About Me
@@ -186,20 +187,12 @@
 	KeeKay's Carousel
 ============================================================================================================*/
 .rule-topmargin {
-	margin:2rem 0 0 0;
+	margin: 2rem 0 0 0;
 }
-
 .rule-bottommargin {
-	margin:0 0 2rem 0;
+	margin: 0 0 2rem 0;
 }
 
 /* ============================================================================================================
 	End of KeeKay's Carousel
-============================================================================================================*/
-/*============================================================================================================
-	Jandro's Footer
-============================================================================================================*/
-
-/*============================================================================================================
-	End of Footer
 ============================================================================================================*/
