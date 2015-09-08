@@ -162,32 +162,53 @@
 	KeeKay's About Me
 ============================================================================================================*/
  
-#aboutme-background-img {
-	background: url(../img/about-me-img2.jpg) no-repeat center top;
-	background-size: 70rem;
-	height: 70vh;
+.rules-section {
+	text-align:center;
+	max-width:100%;
+	width:100%;
+	background-color:#2F363B;
 }
-#aboutme-header {
-	color: #F1772F;
-	margin: 10rem 0 1rem 2rem;
+
+/*#F27721*/
+
+#rule-icon {
+	padding:2.5rem 0 0 0;
 }
-#aboutme-paragraph {
-	margin: 0 0 0 2rem;
+
+#rule-header {
+	text-transform:uppercase;
+	font-size:2.5rem;
+	margin: 1.5rem 0 1.5rem 0;
+	color:#D8E1E5;
+	text-decoration:underline;
+	padding:0 0 0 0;
 }
+
+.rulesytle {
+	margin:0 0 2rem 0;
+	font-size:1.1rem;
+	color:#D8E1E5;
+}
+
+.panel{
+	text-align:center;
+	margin:0 0 1.5rem 0;
+	background-color:#F27721;
+	padding:.5rem 0 .5rem 0;
+	max-width:401px;
+}
+
+#library-header {
+	text-align:center;
+	text-transform:uppercase;
+	padding:0 0 .5rem 0;
+}
+
+h3 {
+	color:#D8E1E5;
+	font-size:1.2rem;
+}
+
 /* ============================================================================================================
 	End of KeeKay's About Me
-============================================================================================================*/
-
-/* ============================================================================================================
-	KeeKay's Carousel
-============================================================================================================*/
-.rule-topmargin {
-	margin: 2rem 0 0 0;
-}
-.rule-bottommargin {
-	margin: 0 0 2rem 0;
-}
-
-/* ============================================================================================================
-	End of KeeKay's Carousel
 ============================================================================================================*/
