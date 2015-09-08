@@ -5,7 +5,7 @@
 	HEADER
 ============================================================================================================*/
 .row {
-	max-width: 100%;
+	max-width: 62.5rem;
 }
 .menu {
 	background-color: #2f363b;
@@ -72,6 +72,7 @@
 	background: url(../img/hero-keyboard-lg.jpg) no-repeat center top;/*===HERO IMAGE===*/
 	background-size: 100rem;
 	height: 100%;
+	width: 100%;
 }
 .hero:before {
 	content: '';
@@ -81,12 +82,13 @@
 	bottom: -5rem;
 	left: 0;
 	background-image: linear-gradient(to bottom right, #002f4b, #f37721);
+	height: 100%;
 	opacity: .8;
 }
 .hero .intro {
 	padding: 3rem;
 	position: relative;
-	top: 50%;
+	top: 25%;
 	transform: translateY(-50%);
 }
 .hero h1 {
@@ -95,6 +97,7 @@
 	line-height: 1.5em;
 	letter-spacing: -0.025em;
 	text-align: center;
+	top: 5rem;
 }
 .hero p {
 	color: #fff;
@@ -123,10 +126,6 @@
 	right: 0;
 	bottom: -5rem;
 	left: 0;
-	background-image: -moz-linear-gradient(to bottom right, #002f4b, #f37721);
-	background-image: -webkit-linear-gradient(to bottom right, #002f4b, #f37721);
-	background-image: -webkit-gradient(linear, 100% 100%, 0 0, from(#002f4b), to(#f37721));
-	background-image: -o-linear-gradient(to bottom right, #002f4b, #f37721);
 	background-image: linear-gradient(to bottom right, #002f4b, #f37721);
 	opacity: .8;
 }
@@ -143,10 +142,6 @@
 	right: 0;
 	bottom: -10.2rem;
 	left: 0;
-	background-image: -moz-linear-gradient(to bottom right, #002f4b, #f37721);
-	background-image: -webkit-linear-gradient(to bottom right, #002f4b, #f37721);
-	background-image: -webkit-gradient(linear, 100% 100%, 0 0, from(#002f4b), to(#f37721));
-	background-image: -o-linear-gradient(to bottom right, #002f4b, #f37721);
 	background-image: linear-gradient(to bottom right, #002f4b, #f37721);
 	opacity: .8;
 }
