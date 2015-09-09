@@ -163,12 +163,21 @@
 	KeeKay's About Me
 ============================================================================================================*/
  
+ #aboutandy {
+	 background-image:url(../img/about-me-andy.jpg) no repeat;
+ }
+ 
+ 
 .rules-section {
 	text-align:center;
 	max-width:100%;
 	width:100%;
 	background-color:#2F363B;
 }
+
+.rulestyle :last-child {
+	margin:0 0 2rem 0;
+	}
 
 /*#F27721*/
 
@@ -194,7 +203,7 @@
 .panel{
 	text-align:center;
 	margin:0 0 1.5rem 0;
-	background-color:#F27721;
+	background-color:#2F363B;
 	padding:.5rem 0 .5rem 0;
 	max-width:401px;
 }
@@ -208,6 +217,10 @@
 h3 {
 	color:#D8E1E5;
 	font-size:1.2rem;
+}
+
+h2 {
+	font-family: Museo;
 }
 
 /* ============================================================================================================
