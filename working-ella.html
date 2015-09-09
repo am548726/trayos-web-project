@@ -27,17 +27,25 @@
 		HEADER  =========================================================================================================================!--> 
 <!--USED A NAV FROM FOUNDATION--> 
 <!--USED A HERO FROM FOUNDATION-->
-<nav class="menu">
-  <h2 class="name"><img src="../../Desktop/andybrand.svg" alt="A mark of Andy's huskie"></h2>
-  <!--LOGO PLACEHOLDER-->
-  <ul class="inline-list">
-    <li><a href="#stream">Stream</a></li>
-    <!--NAVIGATION TO HOME / TOP OF PAGE-->
-    <li><a href="#aboutme-header">About me</a></li>
-    <!--NAVIGATION TO THE STREAM ON THIS PAGE-->
-    <li><a href="#contact">Contact me</a></li>
-    <!--NAVIGATION TO ABOUT SECTION-->
+<nav class="top-bar" data-topbar role="navigation">
+  <ul class="title-area">
+    <li class="name">
+      <a href="#"><img id="logo" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAxOS4xLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgNjEyIDc5MiIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNjEyIDc5MiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBmaWxsPSIjMEExNDJEIiBkPSJNNTI4LjQsMjUwLjRsMC42LDAuM0w0MjUuNywxNy40TDM0OC40LDE1MGwtNDIuNy0yMy44bC00MC4yLDIyLjNMMTg3LjEsMTcuNEw4Mi40LDI1MHYwbC0wLjYsMC4zDQoJTC0wLjYsMzc4LjdMMzA1LjcsNzc3TDYxMiwzNzguN0w1MjguNCwyNTAuNHogTTQxNyw3MC42bDQ1LjEsMTAybC0xMS4zLDMxLjhsLTg0LjQtNDcuMUw0MTcsNzAuNnogTTE5NS4zLDcwLjdsNTEuMyw4NS43bC04Niw0Ny43DQoJbC0xMS4yLTMxLjdMMTk1LjMsNzAuN3ogTTQ3NS42LDQzMC4zbC0yOC44LDgxLjNMNDI0LjUsNTQybC00MiwxMDQuN2wtNzcuNCw2NS40bC03Ni4zLTY1LjRMMTk0LjcsNTQybC0xNi4yLTIwLjhsLTMyLjItOTAuOQ0KCWwtNy4xLDQwLjVMNTYuOSwzNjUuMmw1Ny05LjRsLTAuNiwwLjlsNzguMyw3My42TDE1MywzNDkuNGwzMi45LTUuNGw4LjgtMjUuM2w4MC0yMi40bC0zNy44LDc3LjlsLTQ1LjQtMjEuNnY0LjZsMzEuOCw0NS41DQoJbC0xMC44LDIyLjZsNTUuMi0zMGwxNi41LTExOC42djBsMjAuOS02MC45bDAuMywwLjFsMC43LDAuM2wyMC45LDYwLjVsMTYuNiwxMTguNmw1NS4yLDMwTDM4OCw0MDIuNWwzMS45LTQ1LjZ2LTQuNkwzNzQuNCwzNzQNCglsLTM3LjgtNzcuOGw3OS44LDIyLjVsOC4xLDI1LjNsMjkuNyw0LjlMNDIwLDQyMC43bDcwLjItNjZsNjQuMywxMC41bC03Mi44LDk5LjFMNDc1LjYsNDMwLjN6IE0yMzIuNywzNzguN2wtMS4yLDE4LjZsLTI1LjctMzEuNQ0KCUwyMzIuNywzNzguN3ogTTM3OC43LDM3OC43bDI2LjktMTIuOGwtMjUuNywzMS41TDM3OC43LDM3OC43eiIvPg0KPHBvbHlnb24gZmlsbD0iI0ZGRkZGRiIgcG9pbnRzPSIyNDYuNSwxNTYuNCAxNjAuNSwyMDQuMiAxNDkuMywxNzIuNSAxOTUuMyw3MC43ICIvPg0KPHBvbHlnb24gZmlsbD0iI0ZGRkZGRiIgcG9pbnRzPSI0NjIuMSwxNzIuNiA0NTAuOCwyMDQuNCAzNjYuNSwxNTcuMyA0MTcsNzAuNiAiLz4NCjxwYXRoIGZpbGw9IiNGRkZGRkYiIGQ9Ik00OTAuNywzNTQuN2wtNzAuMiw2NmwzNC4zLTcxLjlsLTI5LjctNC45bC04LjEtMjUuM2wtNzkuOC0yMi41bDM3LjgsNzcuOGw0NS42LTIxLjd2NC42bC0zMS45LDQ1LjYNCglsMTAuOCwyMi42bC01NS4yLTMwbC0xNi42LTExOC42TDMwNi43LDIxNmwtMC43LTAuM2wtMC4zLTAuMWwtMjAuOSw2MC45djBsLTE2LjUsMTE4LjZsLTU1LjIsMzBsMTAuOC0yMi42TDE5Mi4xLDM1N3YtNC42DQoJbDQ1LjQsMjEuNmwzNy44LTc3LjlsLTgwLDIyLjRsLTguOCwyNS4zbC0zMi45LDUuNGwzOC42LDgwLjlsLTc4LjMtNzMuNmwwLjYtMC45bC01Nyw5LjRsODIuMywxMDUuNWw3LjEtNDAuNWwzMi4yLDkwLjlsMTYuMiwyMC44DQoJbDM0LjEsMTA0LjdsNzYuMyw2NS40bDc3LjQtNjUuNEw0MjUsNTQybDIyLjMtMzAuM2wyOC44LTgxLjNsNiwzNGw3Mi44LTk5LjFMNDkwLjcsMzU0Ljd6IE0zODMuNSw1ODkuN0wzMDYsNjg3LjZsLTc2LjMtOTcuOQ0KCWwtMzQuMS03OS45bDgzLjUsNzkuOWwyNi45LTEzLjNsLTQwLjktNjYuNkwzMDYsNTAwbDQyLjEsOS44TDMwNiw1NzYuNGwyNi44LDEzLjNsODQuNS03OS45TDM4My41LDU4OS43eiIvPg0KPHBvbHlnb24gZmlsbD0iI0ZGRkZGRiIgcG9pbnRzPSI0MDYsMzY1LjkgMzgwLjMsMzk3LjQgMzc5LjIsMzc4LjcgIi8+DQo8cG9seWdvbiBmaWxsPSIjRkZGRkZGIiBwb2ludHM9IjIzMy4yLDM3OC43IDIzMiwzOTcuNCAyMDYuMywzNjUuOSAiLz4NCjxwb2x5Z29uIGZpbGw9IiMwQTE0MkQiIHBvaW50cz0iNDE2LjgsNTA5LjggMzgzLDU4OS43IDMwNS41LDY4Ny42IDIyOS4yLDU4OS43IDE5NS4xLDUwOS44IDI3OC42LDU4OS43IDMwNS41LDU3Ni40IDMzMi4zLDU4OS43IA0KCSIvPg0KPHBvbHlnb24gZmlsbD0iI0ZGRkZGRiIgcG9pbnRzPSIzMDUuNiw2NTkuNyAyODAuMSw2MzIuOSAyNzcsNjA0LjUgMjkwLjksNjMyLjkgMzA1LjYsNjM0LjQgMzIwLjEsNjMyLjkgMzM1LjQsNjA0LjUgMzMwLjksNjMyLjkgDQoJIi8+DQo8cG9seWdvbiBmaWxsPSIjMEExNDJEIiBwb2ludHM9IjM0Ny43LDUwOS44IDMwNS41LDU3Ni40IDI2NC43LDUwOS44IDMwNS41LDUwMCAiLz4NCjwvc3ZnPg0K" alt="A mark of Andy's husky"></a>
+    </li>
+    <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
+    <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
   </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right" id="test">
+      <li><a href="#stream">STREAM</a></li>
+      <li><a href="#library">LIBRARY</a></li>
+      <li>
+        <a href="#">ABOUT ME</a>
+      </li>
+    </ul>
+  </section>
 </nav>
 <!--=========================================================================================================================
 		HERO =========================================================================================================================!-->

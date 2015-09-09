@@ -1,166 +1,5 @@
 @charset "UTF-8";
 /* Add your custom css here instead of the css foundation file */
-
-/*============================================================================================================
-	HEADER
-============================================================================================================*/
-.row {
-	max-width: 62.5rem;
-}
-.menu {
-	background-color: #2f363b;
-	padding: 1.5rem 3rem;
-	height: auto;
-}
-.menu .inline-list {
-	text-align: center;
-	font-family: Museo;
-}
-.menu .inline-list li {
-	float: none;
-	display: inline-block;
-}
-.menu .inline-list a {
-	color: #fff;
-	padding-bottom: 0.5rem;
-}
-.menu .inline-list a:hover {
-	color: #f37721;
-	transition: all .3s ease-in-out;
-}
-.menu .inline-list .active a {
-	color: #f37721;
-}
-.name {
-	text-align: center;
-	font-size: 1.5rem;
-	font-family: Museo;
-	line-height: 1;
-	margin: 0 0 1rem 0;
-	color: #fff;
-}
-.name i {
-	color: #f37721;
-	margin-right: 0.5rem;
-}
-.name img {
-	width: 2rem;
-	height: 3rem;
-}
-
-@media only screen and (min-width: 40.063em) {
-.menu {
-	height: 5rem;
-}
-.menu .inline-list {
-	float: right;
-}
-.menu a:hover {
-	border-bottom: 2px solid #f37721;
-}
-}
-
-@media only screen and (min-width: 40.063em) {
-.name {
-	float: left;
-}
-}
-/*============================================================================================================
-	HERO
-============================================================================================================*/
-.hero {
-	background: url(../img/hero-keyboard-lg.jpg) no-repeat center top;/*===HERO IMAGE===*/
-	background-size: 100rem;
-	height: 100%;
-	width: 100%;
-}
-.hero:before {
-	content: '';
-	position: absolute;
-	top: 5rem;
-	right: 0;
-	bottom: -5rem;
-	left: 0;
-	background-image: linear-gradient(to bottom right, #002f4b, #f37721);
-	height: 100%;
-	opacity: .8;
-}
-.hero .intro {
-	padding: 3rem;
-	position: relative;
-	top: 25%;
-	transform: translateY(-50%);
-}
-.hero h1 {
-	color: #fff;
-	font: italic bolder 8.5rem museo slab;
-	line-height: 1.5em;
-	letter-spacing: -0.025em;
-	text-align: center;
-	top: 5rem;
-}
-.hero p {
-	color: #fff;
-	line-height: 1.75em;
-	font-family: Museo;
-	font-size: 1.75rem;
-	font-weight: lighter;
-	text-align: center;
-	margin-bottom: 2rem;
-}
-.hero p a {
-	color: #FFFFFF;
-}
-.hero p a:hover {
-	border-bottom: 2px solid #f37721;
-}
-
-@media only screen and (max-width: 70.063em) {
-.hero {
-	background: url(../img/hero-keyboard-m.jpg) no-repeat center top;
-} /*===RESPONSIVE IMAGE BREAK===*/
-.hero:before {
-	content: '';
-	position: absolute;
-	top: 5rem;
-	right: 0;
-	bottom: -5rem;
-	left: 0;
-	background-image: linear-gradient(to bottom right, #002f4b, #f37721);
-	opacity: .8;
-}
-}
-
-@media only screen and (max-width: 40.063em) {
-.hero {
-	background: url(../img/hero-keyboard-sm.jpg) no-repeat center top;
-} /*===RESPONSIVE IMAGE BREAK===*/
-.hero:before {
-	content: '';
-	position: absolute;
-	top: 10.1rem;
-	right: 0;
-	bottom: -10.2rem;
-	left: 0;
-	background-image: linear-gradient(to bottom right, #002f4b, #f37721);
-	opacity: .8;
-}
-.hero h1 {
-	padding-top: 1.5rem;
-	text-align: right;
-	font-size: 8.5rem;
-}
-.hero p {
-	text-align: right;
-}
-}
-/*============================================================================================================
-	End of Header / Hero
-============================================================================================================*/
-
-/* ============================================================================================================
-	KeeKay's About Me
-============================================================================================================*/
  
 .rules-section {
 	text-align:center;
@@ -212,3 +51,176 @@ h3 {
 /* ============================================================================================================
 	End of KeeKay's About Me
 ============================================================================================================*/
+
+
+
+
+#test li a {
+  color:#fff;
+  background-color:transparent;
+}
+#test li a:hover {
+  background-color:transparent;
+  border: 1px solid #f37721;
+}
+
+#test li a:active {
+  background-color:#f37721;
+}
+
+.button {
+  background-color:#f37721;
+}
+.button:hover {
+  background-color:#cc631b;
+}
+
+.top-bar {
+  height:2.95em;
+}
+
+.bg-test {
+  height:25em;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family:"museo slab";  
+}
+.top-bar{
+  background-color:#2f363b;
+}
+.top-bar.expanded .title-area {
+    background: #2f363b;
+}
+.top-bar-section ul li {
+    background: #2f363b;
+}
+
+/* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (max-width: 40em) {
+  .bg-test {
+    background-color:green;
+  }
+  .top-margin {
+    margin-top:2em;
+  }
+  h1{
+    font-size:5em;
+    color:#fff;
+  }
+  div p{
+    font-size:1.25em;
+    line-height:1em;
+    color:#fff;
+  }
+  h2{
+    font-size:3.5em;
+  }
+  form h3{
+    font-size:2em;
+    font-weight:100;
+  }
+  h4{
+    font-size:1em;
+  }
+
+  form textarea{
+    width:100%;
+    height:5em;
+  }
+  iframe{
+    height:20em;
+    width:100%;
+  }
+
+  #logo{
+    margin-top:.35em;
+    margin-left:.5em;
+    width:1.75em;
+    height:auto;
+  }
+  .box {
+    width:8em;
+    height:8em;
+  }
+  img{
+    width:100%;
+    height:auto;
+  }
+  #library-header{
+    font-size:2em;
+  }
+}
+ 
+/* Medium screens
+min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) { 
+  .bg-test {
+    background-color:red;
+  }
+  #logo{
+    width:1.75em;
+    height:auto;
+    margin-top:.4em;
+    margin-left:.5em;
+  }
+  .top-margin{
+    margin-top:4.5em;
+  }
+} 
+
+
+/* Tablet Size
+min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+  .bg-test{
+    background-color:purple;
+  }
+  h1{
+    font-size:6em;
+  }
+  div p{
+    font-size:1.3em;
+  }
+  .top-margin{
+    margin-top:1.2em;;
+  }
+  iframe{
+    width:100%;
+    height:20em;
+  }
+} 
+
+
+ /*Large screens
+  min-width 1025px, large screens */
+@media only screen and (min-width: 64.063em) { 
+  .bg-test {
+    background-color:grey;
+  }
+  h1{
+    font-size:5em;
+    color:#fff;
+  }
+  div p{
+    font-size:1.2em;
+    color:#fff;
+  }
+  .top-margin{
+    margin-top:1.75em;
+  }
+}
+
+/* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
+@media only screen and (min-width: 64.063em) and (max-width: 90em) { } 
+
+/* XLarge screens
+/* min-width 1441px, xlarge screens */
+@media only screen and (min-width: 90.063em) { } 
+
+ /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+@media only screen and (min-width: 90.063em) and (max-width: 120em) { }
+ 
+ /*XXLarge screens
+  min-width 1921px, xxlarge screens */
+@media only screen and (min-width: 120.063em) { }
