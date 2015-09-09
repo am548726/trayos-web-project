@@ -1,5 +1,167 @@
 @charset "UTF-8";
 /* Add your custom css here instead of the css foundation file */
+
+/*============================================================================================================
+	HEADER
+============================================================================================================*/
+.row {
+	max-width: 62.5rem;
+}
+.menu {
+	background-color: #2f363b;
+	padding: 1.5rem 3rem;
+	height: auto;
+}
+.menu .inline-list {
+	text-align: center;
+	font-family: Museo;
+}
+.menu .inline-list li {
+	float: none;
+	display: inline-block;
+	padding-bottom: 0.5rem;
+}
+.menu a {
+	color: #fff;
+}
+.menu a:hover {
+	color: #f37721;
+	transition: all .3s ease-in-out;
+}
+.menu .active a {
+	color: #f37721;
+}
+.name {
+	text-align: center;
+	font-size: 1.5rem;
+	font-family: Museo;
+	line-height: 1;
+	margin: 0 0 1rem 0;
+	color: #fff;
+}
+.name i {
+	color: #f37721;
+	margin-right: 0.5rem;
+}
+.name img {
+	width: 2rem;
+	height: 3rem;
+}
+
+@media only screen and (min-width: 40.063em) {
+.menu {
+	height: 5rem;
+}
+.menu .inline-list {
+	float: right;
+}
+.menu a:hover {
+	border: 1px solid #f37721;
+}
+.name {
+	float: left;
+}
+}
+/*============================================================================================================
+	HERO
+============================================================================================================*/
+.hero {
+	background: url(../img/hero-keyboard-lg.jpg) no-repeat center top;/*===HERO IMAGE===*/
+	background-size: 100rem;
+	height: 100%;
+}
+.hero:before {
+	content: '';
+	position: absolute;
+	top: 5rem;
+	right: 0;
+	bottom: -5rem;
+	left: 0;
+	background-image: linear-gradient(to bottom right, #002f4b, #f37721);
+	height: 100%;
+	opacity: .8;
+}
+.hero .intro {
+	padding: 3rem;
+	position: relative;
+	top: 30%;
+}
+.hero h1 {
+	color: #fff;
+	font: italic bolder 8.5rem museo slab;
+	line-height: 1.5em;
+	letter-spacing: -0.025em;
+	text-align: center;
+}
+.hero p {
+	color: #fff;
+	line-height: 1.75em;
+	font-family: Museo;
+	font-size: 1.75rem;
+	font-weight: lighter;
+	text-align: center;
+	margin-bottom: 2rem;
+}
+.hero p a {
+	color: #FFFFFF;
+}
+.hero p a:hover {
+	color: #f37721;
+	transition: all .3s ease-in-out;
+	border: 1px solid #f37721;
+}
+
+@media only screen and (max-width: 70.063em) {
+.hero {
+	background: url(../img/hero-keyboard-m.jpg) no-repeat center top;
+	background-size: 100rem;
+} /*===RESPONSIVE IMAGE BREAK===*/
+.hero:before {
+	content: '';
+	position: absolute;
+	top: 5rem;
+	right: 0;
+	bottom: -5rem;
+	left: 0;
+	background-image: linear-gradient(to bottom right, #002f4b, #f37721);
+	opacity: .8;
+}
+}
+
+@media only screen and (max-width: 40.063em) {
+.hero {
+	background: url(../img/hero-keyboard-sm.jpg) no-repeat center top;
+	background-size: 100rem;
+} /*===RESPONSIVE IMAGE BREAK===*/
+.hero:before {
+	content: '';
+	position: absolute;
+	top: 10.1rem;
+	right: 0;
+	bottom: -10.2rem;
+	left: 0;
+	background-image: linear-gradient(to bottom right, #002f4b, #f37721);
+	opacity: .8;
+}
+.hero h1 {
+	padding-top: 1.5rem;
+	text-align: right;
+	font-size: 8.5rem;
+}
+.hero p {
+	text-align: right;
+}
+.hero p a:hover {
+	border: none;
+}
+}
+/*============================================================================================================
+	End of Header / Hero
+============================================================================================================*/
+
+/* ============================================================================================================
+	KeeKay's About Me
+============================================================================================================*/
  
 .rules-section {
 	text-align:center;
