@@ -19,16 +19,16 @@
 .menu .inline-list li {
 	float: none;
 	display: inline-block;
-}
-.menu .inline-list a {
-	color: #fff;
 	padding-bottom: 0.5rem;
 }
-.menu .inline-list a:hover {
+.menu a {
+	color: #fff;
+}
+.menu a:hover {
 	color: #f37721;
 	transition: all .3s ease-in-out;
 }
-.menu .inline-list .active a {
+.menu .active a {
 	color: #f37721;
 }
 .name {
@@ -56,11 +56,8 @@
 	float: right;
 }
 .menu a:hover {
-	border-bottom: 2px solid #f37721;
+	border: 1px solid #f37721;
 }
-}
-
-@media only screen and (min-width: 40.063em) {
 .name {
 	float: left;
 }
@@ -72,7 +69,6 @@
 	background: url(../img/hero-keyboard-lg.jpg) no-repeat center top;/*===HERO IMAGE===*/
 	background-size: 100rem;
 	height: 100%;
-	width: 100%;
 }
 .hero:before {
 	content: '';
@@ -88,8 +84,7 @@
 .hero .intro {
 	padding: 3rem;
 	position: relative;
-	top: 25%;
-	transform: translateY(-50%);
+	top: 30%;
 }
 .hero h1 {
 	color: #fff;
@@ -97,7 +92,6 @@
 	line-height: 1.5em;
 	letter-spacing: -0.025em;
 	text-align: center;
-	top: 5rem;
 }
 .hero p {
 	color: #fff;
@@ -112,12 +106,15 @@
 	color: #FFFFFF;
 }
 .hero p a:hover {
-	border-bottom: 2px solid #f37721;
+	color: #f37721;
+	transition: all .3s ease-in-out;
+	border: 1px solid #f37721;
 }
 
 @media only screen and (max-width: 70.063em) {
 .hero {
 	background: url(../img/hero-keyboard-m.jpg) no-repeat center top;
+	background-size: 100rem;
 } /*===RESPONSIVE IMAGE BREAK===*/
 .hero:before {
 	content: '';
@@ -134,6 +131,7 @@
 @media only screen and (max-width: 40.063em) {
 .hero {
 	background: url(../img/hero-keyboard-sm.jpg) no-repeat center top;
+	background-size: 100rem;
 } /*===RESPONSIVE IMAGE BREAK===*/
 .hero:before {
 	content: '';
@@ -152,6 +150,9 @@
 }
 .hero p {
 	text-align: right;
+}
+.hero p a:hover {
+	border: none;
 }
 }
 /*============================================================================================================
