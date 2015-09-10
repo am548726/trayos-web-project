@@ -23,6 +23,7 @@
 }
 .menu a {
 	color: #fff;
+	border: solid 1px transparent;
 }
 .menu a:hover {
 	color: #f37721;
@@ -104,14 +105,14 @@
 }
 .hero p a {
 	color: #FFFFFF;
+	border-bottom: solid 1px #f37721;
 }
 .hero p a:hover {
 	color: #f37721;
 	transition: all .3s ease-in-out;
-	border: 1px solid #f37721;
 }
 
-@media only screen and (max-width: 70.063em) {
+@media only screen and (min-width: 40.063em) and (max-width: 55em) {
 .hero {
 	background: url(../img/hero-keyboard-m.jpg) no-repeat center top;
 	background-size: 100rem;
@@ -128,15 +129,15 @@
 }
 }
 
-@media only screen and (max-width: 40.063em) {
+@media only screen and (max-width: 40em) {
 .hero {
-	background: url(../img/hero-keyboard-sm.jpg) no-repeat center top;
-	background-size: 100rem;
+	background: url(../img/hero-keyboard-sm.jpg) no-repeat top right;
+	background-size: 50rem;
 } /*===RESPONSIVE IMAGE BREAK===*/
 .hero:before {
 	content: '';
 	position: absolute;
-	top: 10.1rem;
+	top: 10.25rem;
 	right: 0;
 	bottom: -10.2rem;
 	left: 0;
@@ -150,9 +151,6 @@
 }
 .hero p {
 	text-align: right;
-}
-.hero p a:hover {
-	border: none;
 }
 }
 /*============================================================================================================
@@ -365,7 +363,7 @@ min-width 641px and max-width 1024px, use when QAing tablet-only issues */
     font-size:1.3em;
   }
   .top-margin{
-    margin-top:1.2em;;
+    margin-top:1.2em;
   }
   iframe{
     width:100%;
