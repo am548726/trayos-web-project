@@ -4288,9 +4288,7 @@ ul.pagination li {
 .panel > :last-child {
 	margin-bottom: 0;
 }
-.panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6, .panel p, .panel li, .panel dl {
-	color: #333333;
-}
+
 .panel h1, .panel h2, .panel h3, .panel h4, .panel h5, .panel h6 {
 	line-height: 1;
 	margin-bottom: 0.625rem;
