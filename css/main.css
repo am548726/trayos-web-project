@@ -174,9 +174,14 @@
 	color: #2F363B;
 }
 .rules-section {
+<<<<<<< HEAD
 	text-align: center;
 	background-color: #2F363B;
 	padding-bottom: .5rem;
+=======
+	text-align:center;
+	background-color:#2F363B;
+>>>>>>> origin/master
 }
 .rulestyle :last-child {
 	margin: 0 0 2rem 0;
@@ -219,7 +224,7 @@ h2 {
 	font-family: Museo;
 }
 /* ============================================================================================================
-	End of KeeKay's About Me
+	End of KeeKay's Stuff
 ============================================================================================================*/
 
 
