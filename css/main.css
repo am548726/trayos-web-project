@@ -89,7 +89,9 @@
 }
 .hero h1 {
 	color: #fff;
-	font: italic bolder 8.5rem museo slab;
+	font: museo slab;
+	font-weight: bolder;
+	font-style: italic;
 	line-height: 1.5em;
 	letter-spacing: -0.025em;
 	text-align: center;
@@ -147,7 +149,7 @@
 .hero h1 {
 	padding-top: 1.5rem;
 	text-align: right;
-	font-size: 8.5rem;
+	font-size: 6rem;
 }
 .hero p {
 	text-align: right;
