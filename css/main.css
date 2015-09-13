@@ -9,8 +9,7 @@
 }
 .menu {
 	background-color: #2f363b;
-	padding: 1.5rem 3rem;
-	height: auto;
+	padding:1em 1em;
 }
 .menu .inline-list {
 	text-align: center;
@@ -50,9 +49,7 @@
 }
 
 @media only screen and (min-width: 40.063em) {
-.menu {
-	height: 5rem;
-}
+
 .menu .inline-list {
 	float: right;
 }
@@ -61,7 +58,9 @@
 }
 .name {
 	float: left;
+	margin-top: -0.2em;
 }
+
 }
 /*============================================================================================================
 	HERO
@@ -278,50 +277,9 @@ h1,h2,h3,h4,h5,h6 {
 
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 @media only screen and (max-width: 40em) {
-  .bg-test {
-    background-color:green;
-  }
-  .top-margin {
-    margin-top:2em;
-  }
   h1{
     font-size:5em;
     color:#fff;
-  }
-  div p{
-    font-size:1.25em;
-    line-height:1em;
-    color:#fff;
-  }
-  h2{
-    font-size:3.5em;
-  }
-  form h3{
-    font-size:2em;
-    font-weight:100;
-  }
-  h4{
-    font-size:1em;
-  }
-
-  form textarea{
-    width:100%;
-    height:5em;
-  }
-  iframe{
-    height:20em;
-    width:100%;
-  }
-
-  #logo{
-    margin-top:.35em;
-    margin-left:.5em;
-    width:1.75em;
-    height:auto;
-  }
-  .box {
-    width:8em;
-    height:8em;
   }
   img{
     width:100%;
