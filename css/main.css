@@ -163,73 +163,61 @@
     About Me
 ============================================================================================================*/
  
- #aboutandy {
-	 background:url(../img/about-me-andy.jpg) no-repeat;
- }
- 
- #aboutandy h2 {
-	 color:#F27721;
- }
- 
- #aboutandy p {
-	 font-size:1rem;
-	 color:#2F363B;
- }
- 
- 
-.rules-section {
-	text-align:center;
-		background-color:#2F363B;
+#aboutandy {
+	background: url(../img/about-me-andy.jpg) no-repeat;
 }
-
+#aboutandy h2 {
+	color: #F27721;
+}
+#aboutandy p {
+	font-size: 1rem;
+	color: #2F363B;
+}
+.rules-section {
+	text-align: center;
+	background-color: #2F363B;
+	padding-bottom: .5rem;
+}
 .rulestyle :last-child {
-	margin:0 0 2rem 0;
-	}
-
+	margin: 0 0 2rem 0;
+}
 /*#F27721*/
 
 #rule-icon {
-	padding:2.5rem 0 0 0;
+	padding: 2.5rem 0 0 0;
 }
-
 #rule-header {
-	text-transform:uppercase;
-	font-size:2.5rem;
+	text-transform: uppercase;
+	font-size: 2.5rem;
 	margin: 1.5rem 0 1.5rem 0;
-	color:#D8E1E5;
-	text-decoration:underline;
-	padding:0 0 0 0;
+	color: #D8E1E5;
+	text-decoration: underline;
+	padding: 0 0 0 0;
 }
-
 .rulesytle {
-	margin:0 0 2rem 0;
-	font-size:1.1rem;
-	color:#D8E1E5;
+	margin: 0 0 2rem 0;
+	font-size: 1.1rem;
+	color: #D8E1E5;
 }
-
-.panel{
-	text-align:center;
-	margin:0 0 1.5rem 0;
-	background-color:#2F363B;
-	padding:.5rem 0 .5rem 0;
-	max-width:401px;
+.panel {
+	text-align: center;
+	margin: 0 0 1.5rem 0;
+	background-color: #2F363B;
+	padding: .5rem 0 .5rem 0;
+	max-width: 401px;
 }
-
 #library-header {
-	text-align:center;
-	text-transform:uppercase;
-	padding:0 0 1rem 0;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0 0 1rem 0;
 }
-
 h3 {
-	color:#D8E1E5;
-	font-size:1rem;
+	color: #D8E1E5;
+	font-size: 1rem;
 }
-
 h2 {
 	font-family: Museo;
 }
-
 /* ============================================================================================================
 	End of KeeKay's About Me
 ============================================================================================================*/
@@ -238,171 +226,166 @@ h2 {
 
 
 #test li a {
-  color:#fff;
-  background-color:transparent;
+	color: #fff;
+	background-color: transparent;
 }
 #test li a:hover {
-  background-color:transparent;
-  border: 1px solid #f37721;
+	background-color: transparent;
+	border: 1px solid #f37721;
 }
-
 #test li a:active {
-  background-color:#f37721;
+	background-color: #f37721;
 }
-
 .button {
-  background-color:#f37721;
+	background-color: #f37721;
 }
 .button:hover {
-  background-color:#cc631b;
+	background-color: #cc631b;
 }
-
 .top-bar {
-  height:2.95em;
+	height: 2.95em;
 }
-
 .bg-test {
-  height:25em;
+	height: 25em;
 }
-
-h1,h2,h3,h4,h5,h6 {
-  font-family:"museo slab";  
+h1, h2, h3, h4, h5, h6 {
+	font-family: "museo slab";
 }
-.top-bar{
-  background-color:#2f363b;
+.top-bar {
+	background-color: #2f363b;
 }
 .top-bar.expanded .title-area {
-    background: #2f363b;
+	background: #2f363b;
 }
 .top-bar-section ul li {
-    background: #2f363b;
+	background: #2f363b;
 }
 
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 @media only screen and (max-width: 40em) {
-  .bg-test {
-    background-color:green;
-  }
-  .top-margin {
-    margin-top:2em;
-  }
-  h1{
-    font-size:5em;
-    color:#fff;
-  }
-  div p{
-    font-size:1.25em;
-    line-height:1em;
-    color:#fff;
-  }
-  h2{
-    font-size:3.5em;
-  }
-  form h3{
-    font-size:2em;
-    font-weight:100;
-  }
-  h4{
-    font-size:1em;
-  }
-
-  form textarea{
-    width:100%;
-    height:5em;
-  }
-  iframe{
-    height:20em;
-    width:100%;
-  }
-
-  #logo{
-    margin-top:.35em;
-    margin-left:.5em;
-    width:1.75em;
-    height:auto;
-  }
-  .box {
-    width:8em;
-    height:8em;
-  }
-  img{
-    width:100%;
-    height:auto;
-  }
-  #library-header{
-    font-size:2em;
-  }
+.bg-test {
+	background-color: green;
 }
- 
+.top-margin {
+	margin-top: 2em;
+}
+h1 {
+	font-size: 5em;
+	color: #fff;
+}
+div p {
+	font-size: 1.25em;
+	line-height: 1em;
+	color: #fff;
+}
+h2 {
+	font-size: 3.5em;
+}
+form h3 {
+	font-size: 2em;
+	font-weight: 100;
+}
+h4 {
+	font-size: 1em;
+}
+form textarea {
+	width: 100%;
+	height: 5em;
+}
+iframe {
+	height: 20em;
+	width: 100%;
+}
+#logo {
+	margin-top: .35em;
+	margin-left: .5em;
+	width: 1.75em;
+	height: auto;
+}
+.box {
+	width: 8em;
+	height: 8em;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+#library-header {
+	font-size: 2em;
+}
+}
+
 /* Medium screens
 min-width 641px, medium screens */
-@media only screen and (min-width: 40.063em) { 
-  .bg-test {
-    background-color:red;
-  }
-  #logo{
-    width:1.75em;
-    height:auto;
-    margin-top:.4em;
-    margin-left:.5em;
-  }
-  .top-margin{
-    margin-top:4.5em;
-  }
-} 
-
+@media only screen and (min-width: 40.063em) {
+.bg-test {
+	background-color: red;
+}
+#logo {
+	width: 1.75em;
+	height: auto;
+	margin-top: .4em;
+	margin-left: .5em;
+}
+.top-margin {
+	margin-top: 4.5em;
+}
+}
 
 /* Tablet Size
 min-width 641px and max-width 1024px, use when QAing tablet-only issues */
-@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
-  .bg-test{
-    background-color:purple;
-  }
-  h1{
-    font-size:6em;
-  }
-  div p{
-    font-size:1.3em;
-  }
-  .top-margin{
-    margin-top:1.2em;
-  }
-  iframe{
-    width:100%;
-    height:20em;
-  }
-} 
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+.bg-test {
+	background-color: purple;
+}
+h1 {
+	font-size: 6em;
+}
+div p {
+	font-size: 1.3em;
+}
+.top-margin {
+	margin-top: 1.2em;
+}
+iframe {
+	width: 100%;
+	height: 20em;
+}
+}
 
-
- /*Large screens
+/*Large screens
   min-width 1025px, large screens */
-@media only screen and (min-width: 64.063em) { 
-  .bg-test {
-    background-color:grey;
-  }
-  h1{
-    font-size:5em;
-    color:#fff;
-  }
-  div p{
-    font-size:1.2em;
-    color:#fff;
-  }
-  .top-margin{
-    margin-top:1.75em;
-  }
+@media only screen and (min-width: 64.063em) {
+.bg-test {
+	background-color: grey;
+}
+h1 {
+	font-size: 5em;
+	color: #fff;
+}
+div p {
+	font-size: 1.2em;
+	color: #fff;
+}
+.top-margin {
+	margin-top: 1.75em;
+}
 }
 
 /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
-@media only screen and (min-width: 64.063em) and (max-width: 90em) { } 
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {
+}
 
 /* XLarge screens
 /* min-width 1441px, xlarge screens */
-@media only screen and (min-width: 90.063em) { } 
+@media only screen and (min-width: 90.063em) {
+}
 
- /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
-@media only screen and (min-width: 90.063em) and (max-width: 120em) { }
- 
- /*XXLarge screens
+/* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
+@media only screen and (min-width: 90.063em) and (max-width: 120em) {
+}
+
+/*XXLarge screens
   min-width 1921px, xxlarge screens */
-@media only screen and (min-width: 120.063em) { }
+@media only screen and (min-width: 120.063em) {
+}
