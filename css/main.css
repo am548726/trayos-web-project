@@ -171,6 +171,8 @@ input, textarea {
  
 #aboutandy {
 	background: url(../img/about-me-andy.jpg) no-repeat;
+	background-size:contain;
+	height:50rem;
 	
 }
 #aboutandy h2 {
@@ -299,9 +301,6 @@ div p {
 	color: #fff;
 }
 
-#aboutandy {
-	margin-bottom:2em
-}
 
 #aboutandy h2 {
 	margin-top:.9em;
@@ -351,11 +350,6 @@ iframe {
 		
 }
 
-#aboutandy {
-	background-size:40em;
-	background-position:-200px 0;
-	margin-bottom:4em;
-}
 
 .rules-section {
 	margin:2.5em 0;
