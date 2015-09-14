@@ -49,6 +49,12 @@
 	height: 3rem;
 }
 
+input, textarea {
+	text-align:center;
+}
+
+
+
 @media only screen and (min-width: 40.063em) {
 
 .menu .inline-list {
@@ -241,7 +247,9 @@ h2 {
 	background-color: #f37721;
 }
 .button {
-	background-color: #f37721;
+	border:2px solid #f37721;
+	color:#f37721;
+	background-color:transparent;
 }
 .button:hover {
 	background-color: #cc631b;
@@ -352,6 +360,11 @@ iframe {
 .rules-section {
 	margin:2.5em 0;
 }
+
+h4 {
+	font-size:2em;
+}
+
 }
 
 /* Medium screens
