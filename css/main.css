@@ -9,8 +9,13 @@
 }
 .menu {
 	background-color: #2f363b;
+<<<<<<< HEAD
 	padding: 1em 1em;
 	height: 5rem;
+=======
+	padding:1em 1em;
+	height:5rem; 
+>>>>>>> origin/master
 }
 .menu .inline-list {
 	text-align: center;
@@ -48,6 +53,17 @@
 	width: 2rem;
 	height: 3rem;
 }
+
+input, textarea {
+	text-align:center;
+}
+
+form {
+	width:30em;
+	margin:0 auto;
+}
+
+
 
 @media only screen and (min-width: 40.063em) {
 .menu .inline-list {
@@ -137,7 +153,7 @@
 .hero:before {
 	content: '';
 	position: absolute;
-	top: 10.25rem;
+	top: 9.25rem;
 	right: 0;
 	bottom: -10.2rem;
 	left: 0;
@@ -146,11 +162,11 @@
 }
 .hero h1 {
 	padding-top: 1.5rem;
-	text-align: right;
+	text-align:center;
 	font-size: 6rem;
 }
 .hero p {
-	text-align: right;
+	text-align:center;
 }
 }
 /*============================================================================================================
@@ -163,8 +179,16 @@
  
 #aboutandy {
 	background: url(../img/about-me-andy.jpg) no-repeat;
+<<<<<<< HEAD
 	height: 50rem;
 	background-size: contain;
+=======
+	margin:0 auto;
+
+	background-size:contain;
+	height:45rem;
+	
+>>>>>>> origin/master
 }
 #aboutandy h2 {
 	color: #F27721;
@@ -216,11 +240,17 @@ iframe {
 	text-align: center;
 	background-color: #2F363B;
 	padding-bottom: .5rem;
+<<<<<<< HEAD
+=======
+	text-align:center;
+	background-color:#2F363B;
+>>>>>>> origin/master
 }
 .rulestyle :last-child {
 	margin: 0 0 2rem 0;
 }
-/*#F27721*/
+
+/*#F27721-alternative color*/
 
 #rule-icon {
 	padding: 2.5rem 0 0 0;
@@ -276,7 +306,9 @@ h2 {
 	background-color: #f37721;
 }
 .button {
-	background-color: #f37721;
+	border:2px solid #f37721;
+	color:#f37721;
+	background-color:transparent;
 }
 .button:hover {
 	background-color: #cc631b;
@@ -302,6 +334,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 @media only screen and (max-width: 40em) {
+<<<<<<< HEAD
 h1 {
 	font-size: 5em;
 	color: #fff;
@@ -316,6 +349,17 @@ img {
 .bg-test {
 	background-color: green;
 }
+=======
+  h1{
+    font-size:5em;
+    color:#fff;
+  }
+
+  #library-header{
+    font-size:2em;
+  }
+
+>>>>>>> origin/master
 .top-margin {
 	margin-top: 2em;
 }
@@ -328,9 +372,26 @@ div p {
 	line-height: 1em;
 	color: #fff;
 }
-h2 {
-	font-size: 3.5em;
+
+
+#aboutandy h2 {
+	margin-top:.8em;
+	font-size: 2em;
+	line-height:1em;
+	width:3.7em;
 }
+
+#aboutandy p {
+	font-size:.9em;
+	margin-top:1.813em;
+	line-height:1.5em;
+	width:16.75em;
+}
+
+#aboutandy {
+	height:19em;
+}
+
 form h3 {
 	font-size: 2em;
 	font-weight: 100;
@@ -356,13 +417,11 @@ iframe {
 	width: 8em;
 	height: 8em;
 }
-img {
-	width: 100%;
-	height: auto;
-}
+
 #library-header {
 	font-size: 2em;
 }
+<<<<<<< HEAD
 #stream {
 	width: 100%;
 }
@@ -372,14 +431,33 @@ img {
 #aboutandy {
 	width: 30rem;
 }
+=======
+
+.menu {
+	height:auto;
+		
+}
+
+
+.rules-section {
+	margin:2.5em 0;
+}
+
+h4 {
+	font-size:2em;
+}
+
+form {
+	width:23em;
+}
+
+>>>>>>> origin/master
 }
 
 /* Medium screens
 min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) {
-.bg-test {
-	background-color: red;
-}
+
 #logo {
 	width: 1.75em;
 	height: auto;
@@ -394,9 +472,7 @@ min-width 641px, medium screens */
 /* Tablet Size
 min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-.bg-test {
-	background-color: purple;
-}
+
 h1 {
 	font-size: 6em;
 }
@@ -409,14 +485,22 @@ div p {
 #aboutandy {
 	width: 50rem;
 }
+
+#aboutandy h2, p {
+	margin: 0 0 0 3em;
+	
+}
+
+#aboutandy {
+	height:33rem;
+	background-position:center;
+}
 }
 
 /*Large screens
   min-width 1025px, large screens */
 @media only screen and (min-width: 64.063em) {
-.bg-test {
-	background-color: grey;
-}
+
 h1 {
 	font-size: 5em;
 	color: #fff;
