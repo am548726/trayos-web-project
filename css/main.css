@@ -9,7 +9,8 @@
 }
 .menu {
 	background-color: #2f363b;
-	padding:1em 1em;
+	padding: 1em 1em;
+	height: 5rem;
 }
 .menu .inline-list {
 	text-align: center;
@@ -49,7 +50,6 @@
 }
 
 @media only screen and (min-width: 40.063em) {
-
 .menu .inline-list {
 	float: right;
 }
@@ -60,7 +60,6 @@
 	float: left;
 	margin-top: -0.2em;
 }
-
 }
 /*============================================================================================================
 	HERO
@@ -164,6 +163,8 @@
  
 #aboutandy {
 	background: url(../img/about-me-andy.jpg) no-repeat;
+	height: 50rem;
+	background-size: contain;
 }
 #aboutandy h2 {
 	color: #F27721;
@@ -172,15 +173,49 @@
 	font-size: 1rem;
 	color: #2F363B;
 }
+/* ============================================================================================================
+    STREAM**************************************************
+============================================================================================================*/
+#streamc {
+	position: relative;
+	height: 100%;
+	overflow: hidden;
+	margin-left: 240px;
+	margin-right: 240px;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+#stream {
+	position: relative;
+	margin-bottom: 5rem;
+}
+iframe {
+	width: 100%;
+	height: 40em;
+}
+#chat {
+	position: relative;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	min-width: 250px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: block;
+	margin-bottom: 5rem;
+}
+/* ============================================================================================================
+    END OF STREAM**************************************************
+============================================================================================================*/
+
 .rules-section {
 	text-align: center;
 	background-color: #2F363B;
 	padding-bottom: .5rem;
-<<<<<<< Updated upstream
-	text-align:center;
-	background-color:#2F363B;
-=======
->>>>>>> Stashed changes
 }
 .rulestyle :last-child {
 	margin: 0 0 2rem 0;
@@ -267,17 +302,17 @@ h1, h2, h3, h4, h5, h6 {
 
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 @media only screen and (max-width: 40em) {
-  h1{
-    font-size:5em;
-    color:#fff;
-  }
-  img{
-    width:100%;
-    height:auto;
-  }
-  #library-header{
-    font-size:2em;
-  }
+h1 {
+	font-size: 5em;
+	color: #fff;
+}
+img {
+	width: 100%;
+	height: auto;
+}
+#library-header {
+	font-size: 2em;
+}
 .bg-test {
 	background-color: green;
 }
@@ -309,7 +344,7 @@ form textarea {
 }
 iframe {
 	height: 20em;
-	width: 100%;
+	width: 50%;
 }
 #logo {
 	margin-top: .35em;
@@ -327,6 +362,15 @@ img {
 }
 #library-header {
 	font-size: 2em;
+}
+#stream {
+	width: 100%;
+}
+#chat {
+	display: none;
+}
+#aboutandy {
+	width: 30rem;
 }
 }
 
@@ -362,9 +406,8 @@ div p {
 .top-margin {
 	margin-top: 1.2em;
 }
-iframe {
-	width: 100%;
-	height: 20em;
+#aboutandy {
+	width: 50rem;
 }
 }
 
