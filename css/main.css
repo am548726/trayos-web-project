@@ -10,6 +10,7 @@
 .menu {
 	background-color: #2f363b;
 	padding:1em 1em;
+	height:5rem; 
 }
 .menu .inline-list {
 	text-align: center;
@@ -164,6 +165,7 @@
  
 #aboutandy {
 	background: url(../img/about-me-andy.jpg) no-repeat;
+	padding:0 0 30rem 0;
 }
 #aboutandy h2 {
 	color: #F27721;
