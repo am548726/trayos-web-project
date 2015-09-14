@@ -139,7 +139,7 @@
 .hero:before {
 	content: '';
 	position: absolute;
-	top: 10.25rem;
+	top: 9.25rem;
 	right: 0;
 	bottom: -10.2rem;
 	left: 0;
@@ -148,11 +148,11 @@
 }
 .hero h1 {
 	padding-top: 1.5rem;
-	text-align: right;
+	text-align:center;
 	font-size: 6rem;
 }
 .hero p {
-	text-align: right;
+	text-align:center;
 }
 }
 /*============================================================================================================
@@ -180,10 +180,6 @@
 	padding-bottom: .5rem;
 	text-align:center;
 	background-color:#2F363B;
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/master
 }
 .rulestyle :last-child {
 	margin: 0 0 2rem 0;
@@ -331,6 +327,11 @@ img {
 }
 #library-header {
 	font-size: 2em;
+}
+
+.menu {
+	height:auto;
+		
 }
 }
 
