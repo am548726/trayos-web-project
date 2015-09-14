@@ -165,7 +165,7 @@
  
 #aboutandy {
 	background: url(../img/about-me-andy.jpg) no-repeat;
-	padding:0 0 30rem 0;
+	
 }
 #aboutandy h2 {
 	color: #F27721;
@@ -293,9 +293,19 @@ div p {
 	line-height: 1em;
 	color: #fff;
 }
-h2 {
+#aboutandy h2 {
+	margin-top:2.2em;
 	font-size: 3.5em;
+	line-height:1em;
+	width:214px;
 }
+
+#aboutandy p {
+	margin-top:1.813em;
+	line-height:1em;
+	width:13.75em;
+}
+
 form h3 {
 	font-size: 2em;
 	font-weight: 100;
@@ -332,6 +342,12 @@ img {
 .menu {
 	height:auto;
 		
+}
+
+#aboutandy {
+	background-size:40em;
+	background-position:-200px 0;
+	margin-bottom:4em;
 }
 }
 
