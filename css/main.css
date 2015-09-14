@@ -176,8 +176,10 @@ form {
  
 #aboutandy {
 	background: url(../img/about-me-andy.jpg) no-repeat;
+	margin:0 auto;
+
 	background-size:contain;
-	height:50rem;
+	height:45rem;
 	
 }
 #aboutandy h2 {
@@ -290,9 +292,7 @@ h1, h2, h3, h4, h5, h6 {
   #library-header{
     font-size:2em;
   }
-.bg-test {
-	background-color: green;
-}
+
 .top-margin {
 	margin-top: 2em;
 }
@@ -319,6 +319,10 @@ div p {
 	margin-top:1.813em;
 	line-height:1.5em;
 	width:16.75em;
+}
+
+#aboutandy {
+	height:19em;
 }
 
 form h3 {
@@ -374,9 +378,7 @@ form {
 /* Medium screens
 min-width 641px, medium screens */
 @media only screen and (min-width: 40.063em) {
-.bg-test {
-	background-color: red;
-}
+
 #logo {
 	width: 1.75em;
 	height: auto;
@@ -391,9 +393,7 @@ min-width 641px, medium screens */
 /* Tablet Size
 min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 @media only screen and (min-width: 40.063em) and (max-width: 64em) {
-.bg-test {
-	background-color: purple;
-}
+
 h1 {
 	font-size: 6em;
 }
@@ -407,14 +407,22 @@ iframe {
 	width: 100%;
 	height: 20em;
 }
+
+#aboutandy h2, p {
+	margin: 0 0 0 3em;
+	
+}
+
+#aboutandy {
+	height:33rem;
+	background-position:center;
+}
 }
 
 /*Large screens
   min-width 1025px, large screens */
 @media only screen and (min-width: 64.063em) {
-.bg-test {
-	background-color: grey;
-}
+
 h1 {
 	font-size: 5em;
 	color: #fff;
