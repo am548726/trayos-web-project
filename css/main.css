@@ -53,6 +53,11 @@ input, textarea {
 	text-align:center;
 }
 
+form {
+	width:30em;
+	margin:0 auto;
+}
+
 
 
 @media only screen and (min-width: 40.063em) {
@@ -303,16 +308,17 @@ div p {
 
 
 #aboutandy h2 {
-	margin-top:.9em;
-	font-size: 3.5em;
+	margin-top:.8em;
+	font-size: 2em;
 	line-height:1em;
-	width:210px;
+	width:3.7em;
 }
 
 #aboutandy p {
+	font-size:.9em;
 	margin-top:1.813em;
 	line-height:1.5em;
-	width:13.75em;
+	width:16.75em;
 }
 
 form h3 {
@@ -357,6 +363,10 @@ iframe {
 
 h4 {
 	font-size:2em;
+}
+
+form {
+	width:23em;
 }
 
 }
