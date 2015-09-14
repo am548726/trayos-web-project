@@ -271,10 +271,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size:5em;
     color:#fff;
   }
-  img{
-    width:100%;
-    height:auto;
-  }
+
   #library-header{
     font-size:2em;
   }
@@ -293,16 +290,21 @@ div p {
 	line-height: 1em;
 	color: #fff;
 }
+
+#aboutandy {
+	margin-bottom:2em
+}
+
 #aboutandy h2 {
-	margin-top:2.2em;
+	margin-top:.9em;
 	font-size: 3.5em;
 	line-height:1em;
-	width:214px;
+	width:210px;
 }
 
 #aboutandy p {
 	margin-top:1.813em;
-	line-height:1em;
+	line-height:1.5em;
 	width:13.75em;
 }
 
@@ -331,10 +333,7 @@ iframe {
 	width: 8em;
 	height: 8em;
 }
-img {
-	width: 100%;
-	height: auto;
-}
+
 #library-header {
 	font-size: 2em;
 }
@@ -348,6 +347,10 @@ img {
 	background-size:40em;
 	background-position:-200px 0;
 	margin-bottom:4em;
+}
+
+.rules-section {
+	margin:2.5em 0;
 }
 }
 
