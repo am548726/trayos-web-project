@@ -178,16 +178,15 @@
 	text-align: center;
 	background-color: #2F363B;
 	padding-bottom: .5rem;
-<<<<<<< Updated upstream
 	text-align:center;
 	background-color:#2F363B;
-=======
->>>>>>> Stashed changes
+
 }
 .rulestyle :last-child {
 	margin: 0 0 2rem 0;
 }
-/*#F27721*/
+
+/*#F27721-alternative color*/
 
 #rule-icon {
 	padding: 2.5rem 0 0 0;
