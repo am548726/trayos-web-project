@@ -327,12 +327,17 @@ footer {
 }
 
 footer ul li {
-	text-align: center;
+	padding-top:1em; 
+}
+
+footer small {
+	margin-top:10em; 
+	color:#fff;
 }
 
 
 /*-----------------------
-			FOOTER
+			END OF FOOTER
 --------------------------*/
 
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
@@ -402,7 +407,7 @@ iframe {
 	height: 8em;
 }
 
-#stream {
+#streamc {
 	width: 100%;
 }
 #chat {
