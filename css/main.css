@@ -9,13 +9,8 @@
 }
 .menu {
 	background-color: #2f363b;
-<<<<<<< HEAD
 	padding: 1em 1em;
 	height: 5rem;
-=======
-	padding:1em 1em;
-	height:5rem; 
->>>>>>> origin/master
 }
 .menu .inline-list {
 	text-align: center;
@@ -179,16 +174,9 @@ form {
  
 #aboutandy {
 	background: url(../img/about-me-andy.jpg) no-repeat;
-<<<<<<< HEAD
 	height: 50rem;
 	background-size: contain;
-=======
 	margin:0 auto;
-
-	background-size:contain;
-	height:45rem;
-	
->>>>>>> origin/master
 }
 #aboutandy h2 {
 	color: #F27721;
@@ -240,11 +228,6 @@ iframe {
 	text-align: center;
 	background-color: #2F363B;
 	padding-bottom: .5rem;
-<<<<<<< HEAD
-=======
-	text-align:center;
-	background-color:#2F363B;
->>>>>>> origin/master
 }
 .rulestyle :last-child {
 	margin: 0 0 2rem 0;
@@ -334,7 +317,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 @media only screen and (max-width: 40em) {
-<<<<<<< HEAD
 h1 {
 	font-size: 5em;
 	color: #fff;
@@ -349,24 +331,11 @@ img {
 .bg-test {
 	background-color: green;
 }
-=======
-  h1{
-    font-size:5em;
-    color:#fff;
-  }
 
-  #library-header{
-    font-size:2em;
-  }
-
->>>>>>> origin/master
 .top-margin {
 	margin-top: 2em;
 }
-h1 {
-	font-size: 5em;
-	color: #fff;
-}
+
 div p {
 	font-size: 1.25em;
 	line-height: 1em;
@@ -396,9 +365,7 @@ form h3 {
 	font-size: 2em;
 	font-weight: 100;
 }
-h4 {
-	font-size: 1em;
-}
+
 form textarea {
 	width: 100%;
 	height: 5em;
@@ -418,10 +385,6 @@ iframe {
 	height: 8em;
 }
 
-#library-header {
-	font-size: 2em;
-}
-<<<<<<< HEAD
 #stream {
 	width: 100%;
 }
@@ -431,13 +394,11 @@ iframe {
 #aboutandy {
 	width: 30rem;
 }
-=======
 
 .menu {
 	height:auto;
 		
 }
-
 
 .rules-section {
 	margin:2.5em 0;
@@ -451,7 +412,6 @@ form {
 	width:23em;
 }
 
->>>>>>> origin/master
 }
 
 /* Medium screens
