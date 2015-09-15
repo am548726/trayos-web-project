@@ -171,13 +171,16 @@ form {
 /* ============================================================================================================
     About Me
 ============================================================================================================*/
- 
+
+/*
 #aboutandy {
 	background: url(../img/about-me-andy.jpg) no-repeat;
 	height: 50rem;
 	background-size: contain;
 	margin:0 auto;
 }
+
+*/
 #aboutandy h2 {
 	color: #F27721;
 }
@@ -315,6 +318,23 @@ h1, h2, h3, h4, h5, h6 {
 	background: #2f363b;
 }
 
+/*-----------------------
+			FOOTER
+--------------------------*/
+
+footer {
+	background-color:#2f363b;
+}
+
+footer ul li {
+	text-align: center;
+}
+
+
+/*-----------------------
+			FOOTER
+--------------------------*/
+
 /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 @media only screen and (max-width: 40em) {
 h1 {
@@ -322,7 +342,6 @@ h1 {
 	color: #fff;
 }
 img {
-	width: 100%;
 	height: auto;
 }
 #library-header {
@@ -357,9 +376,7 @@ div p {
 	width:16.75em;
 }
 
-#aboutandy {
-	height:19em;
-}
+
 
 form h3 {
 	font-size: 2em;
@@ -391,9 +408,15 @@ iframe {
 #chat {
 	display: none;
 }
+
+/*
+#aboutandy {
+	height:19em;
+}
 #aboutandy {
 	width: 30rem;
 }
+*/
 
 .menu {
 	height:auto;
@@ -442,19 +465,20 @@ div p {
 .top-margin {
 	margin-top: 1.2em;
 }
-#aboutandy {
-	width: 50rem;
-}
 
 #aboutandy h2, p {
 	margin: 0 0 0 3em;
 	
 }
-
+/*
 #aboutandy {
 	height:33rem;
 	background-position:center;
 }
+#aboutandy {
+	width: 50rem;
+}*/
+
 }
 
 /*Large screens
