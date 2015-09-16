@@ -1,35 +1,26 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Strict//EN">
-
+<!doctype html>
+<html class="no-js" lang="en">
 <head>
-	<title>A Nice & Simple Contact Form</title>
-	
-	<link rel="stylesheet" type="text/css" href="style.css" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Trayos | Welcome</title>
+<link rel="stylesheet" href="css/foundation.css" />
+<link rel="stylesheet" href="css/main.css" />
+<script src="js/vendor/modernizr.js"></script>
+<script src="//use.typekit.net/noy0mkg.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 
 <body>
-
-	<div id="page-wrap">
-
-		<img src="images/title.gif" alt="A Nice & Simple Contact Form" />
-		<p>By <a href="http://css-tricks.com">CSS-Tricks</a></p>
-			
-			
-		<br /><br />
-		
-			
-		<h1>Your message has been sent!</h1><br />
-		
-		<p><a href="index.html">Back to Contact Form</a></p>
-	
-	</div>
-	
-	<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
-	</script>
-	<script type="text/javascript">
+<div id="page-wrap">
+  <h2>Your message has been sent!</h2>
+  <p><a href="index.html">Back to Trayos</a></p>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+	</script> 
+<script type="text/javascript">
 	_uacct = "UA-68528-29";
 	urchinTracker();
 	</script>
-
 </body>
-
 </html>
