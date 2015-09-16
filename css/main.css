@@ -172,22 +172,8 @@ form {
     About Me
 ============================================================================================================*/
 
-/*
-#aboutandy {
-	background: url(../img/about-me-andy.jpg) no-repeat;
-	height: 50rem;
-	background-size: contain;
-	margin:0 auto;
-}
 
-*/
-#aboutandy h2 {
-	color: #F27721;
-}
-#aboutandy p {
-	font-size: 1rem;
-	color: #2F363B;
-}
+
 /* ============================================================================================================
     STREAM**************************************************
 ============================================================================================================*/
@@ -349,6 +335,13 @@ h1 {
 img {
 	height: auto;
 }
+
+#aboutandy p {
+	color:black;
+	font-size: 1em;
+	line-height:1.4em;
+}
+
 #library-header {
 	font-size: 2em;
 }
@@ -365,22 +358,6 @@ div p {
 	line-height: 1em;
 	color: #fff;
 }
-
-
-#aboutandy h2 {
-	margin-top:.8em;
-	font-size: 2em;
-	line-height:1em;
-	width:3.7em;
-}
-
-#aboutandy p {
-	font-size:.9em;
-	margin-top:1.813em;
-	line-height:1.5em;
-	width:16.75em;
-}
-
 
 
 form h3 {
@@ -414,14 +391,6 @@ iframe {
 	display: none;
 }
 
-/*
-#aboutandy {
-	height:19em;
-}
-#aboutandy {
-	width: 30rem;
-}
-*/
 
 .menu {
 	height:auto;
@@ -440,6 +409,7 @@ form {
 	width:18em;
 	
 }
+
 
 }
 
@@ -471,19 +441,6 @@ div p {
 .top-margin {
 	margin-top: 1.2em;
 }
-
-#aboutandy h2, p {
-	margin: 0 0 0 3em;
-	
-}
-/*
-#aboutandy {
-	height:33rem;
-	background-position:center;
-}
-#aboutandy {
-	width: 50rem;
-}*/
 
 }
 
