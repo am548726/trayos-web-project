@@ -117,18 +117,18 @@
 
 <div class="row">
 <div id="contactForm" class="small-12 medium-12 large-12 columns text-center">
-  <form id="myForm" method="post" data-abide>
+  <form id="myForm" method="post" data-abide action="contactengine.php">
     <h4 id="contact">Have a game request or a question about me?</h4>
     <label>Name</label>
     <small class="error">Your full name is required.</small>
-    <input type="text" placeholder="Name" required>
+    <input type="text" name="Name" id="Name" placeholder="Name" required>
     <label>Email</label>
     <small class="error">Your full email is required.</small>
-    <input type="email" placeholder="example@email.com" required>
+    <input type="email" name="Email" id="Email" placeholder="example@email.com" required>
     <label>Your Message</label>
     <small class="error">Your message is required.</small>
     <textarea placeholder="Enter your message here" required></textarea>
-    <input type="submit" class="nice blue radius button" value="Send Message">
+    <input type="submit" name="Message" id="Message" class="nice blue radius button" value="Send Message">
   </form>
 </div>
 </div>
