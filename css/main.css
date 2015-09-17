@@ -336,17 +336,19 @@ img {
 	height: auto;
 }
 
+#aboutandy h2 {
+	color:#f37721;
+	max-width:4.9em;
+}
+
 #aboutandy p {
-	color:black;
+	color:#2F363B;
 	font-size: 1em;
 	line-height:1.4em;
 }
 
 #library-header {
 	font-size: 2em;
-}
-.bg-test {
-	background-color: green;
 }
 
 .top-margin {
