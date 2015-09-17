@@ -292,7 +292,7 @@ h2 {
 	background-color:transparent;
 }
 .button:hover {
-	background-color: #cc631b;
+	background-color: #f37721;
 }
 .top-bar {
 	height: 2.95em;
@@ -321,9 +321,20 @@ footer {
 	background-color:#2f363b;
 }
 
-footer ul li {
-	padding-top:1em; 
+#footer-icons li {
+	padding:1.3em 1.3em 0 0;
 }
+
+
+#footer{ 
+	text-align:center; 
+	
+}
+
+#footer ul li {
+	display:inline-block;
+	}
+
 
 footer small {
 	margin-top:10em; 
@@ -423,6 +434,12 @@ form {
 	width:18em;
 	
 }
+
+#footer-icons a {
+	
+}
+
+
 
 
 }
