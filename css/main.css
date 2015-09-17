@@ -262,7 +262,11 @@ h2 {
 #aboutandy {
 	background:url(../img/about-small-2.jpg) no-repeat;
 	background-size:100%;
-	height:500px;
+	height:400px;
+}
+
+#aboutandy p {
+	color:#fff;	
 }
 /* ============================================================================================================
 	End of KeeKay's Stuff
@@ -346,12 +350,13 @@ img {
 #aboutandy h2 {
 	color:#f37721;
 	max-width:4.9em;
+	padding:2.5em 0 0 0;
 }
 
 #aboutandy p {
-	color:#2F363B;
 	font-size: 1em;
 	line-height:1.4em;
+	max-width:13em;
 }
 
 #library-header {
