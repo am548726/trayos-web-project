@@ -58,6 +58,9 @@ form {
 	margin:0 auto;
 }
 
+#contactForm {
+	padding: 2em 0 0 0;
+}
 
 
 @media only screen and (min-width: 40.063em) {
@@ -138,6 +141,18 @@ form {
 	background-image: linear-gradient(to bottom right, #002f4b, #f37721);
 	opacity: .8;
 }
+
+/*=====ABOUT ME=======*/
+#aboutandy h2 {
+	color:#f37721;
+	padding: .6em 0 0 .2em;
+	font-size:3em;
+}
+
+#aboutandy p {
+	padding: 0 0 0 .6em;
+}
+/*=====END OF ABOUT ME=======*/
 }
 
 @media only screen and (max-width: 40em) {
