@@ -484,7 +484,7 @@ div p {
 @media only screen and (min-width: 90.063em) {
 	.hero {
 	background: url(../img/hero-keyboard-xl) no-repeat center top;
-	background-size: 100rem;
+	background-size: 100%;
 }
 }
 
