@@ -53,6 +53,11 @@ input, textarea {
 	text-align:center;
 }
 
+#aboutandy h2 {
+	color:#f37721;
+}
+
+/*======Contact Form Starts======*/
 form {
 	width:30em;
 	margin:0 auto;
@@ -61,11 +66,7 @@ form {
 #contactForm {
 	padding: 2em 0 0 0;
 }
-
-#aboutandy h2 {
-	color:#f37721;
-}
-
+/*======Contact Form Ends======*/
 
 @media only screen and (min-width: 40.063em) {
 .menu .inline-list {
@@ -146,9 +147,8 @@ form {
 	opacity: .8;
 }
 
-/*=====ABOUT ME=======*/
+/*========ABOUT ME========*/
 #aboutandy h2 {
-	color:#f37721;
 	padding: .6em 0 0 .2em;
 	font-size:3em;
 }
@@ -156,7 +156,7 @@ form {
 #aboutandy p {
 	padding: 0 0 0 .6em;
 }
-/*=====END OF ABOUT ME=======*/
+/*========END OF ABOUT ME========*/
 }
 
 @media only screen and (max-width: 40em) {
@@ -187,11 +187,20 @@ form {
 	End of Header / Hero
 ============================================================================================================*/
 
-/* ============================================================================================================
-    About Me
-============================================================================================================*/
+/*========About Me Starts========*/
+h2 {
+	font-family: Museo;
+}
+#aboutandy {
+	background:url(../img/about-small-2.jpg) no-repeat;
+	background-size:100%;
+	height:400px;
+}
 
-
+#aboutandy p {
+	color:#fff;	
+}
+/*========About Me Ends========*/
 
 /* ============================================================================================================
     STREAM**************************************************
@@ -223,6 +232,26 @@ iframe {
     END OF STREAM**************************************************
 ============================================================================================================*/
 
+/*========Library Section Starts========*/
+.panel {
+	text-align: center;
+	margin: 0 0 1.5rem 0;
+	background-color: #2F363B;
+	padding: .5rem 0 .5rem 0;
+	max-width: 401px;
+}
+#library-header {
+	text-align: center;
+	text-transform: uppercase;
+	padding: 0 0 1rem 0;
+}
+h3 {
+	color: #D8E1E5;
+	font-size: 1rem;
+}
+/*========Library Section Ends========*/
+
+/*========Rule Section Starts========*/
 .rules-section {
 	text-align: center;
 	background-color: #2F363B;
@@ -231,8 +260,6 @@ iframe {
 .rulestyle :last-child {
 	margin: 0 0 2rem 0;
 }
-
-/*#F27721-alternative color*/
 
 #rule-icon {
 	padding: 2.5rem 0 0 0;
@@ -250,52 +277,8 @@ iframe {
 	font-size: 1.1rem;
 	color: #D8E1E5;
 }
-.panel {
-	text-align: center;
-	margin: 0 0 1.5rem 0;
-	background-color: #2F363B;
-	padding: .5rem 0 .5rem 0;
-	max-width: 401px;
-}
-#library-header {
-	text-align: center;
-	text-transform: uppercase;
-	padding: 0 0 1rem 0;
-}
-h3 {
-	color: #D8E1E5;
-	font-size: 1rem;
-}
-h2 {
-	font-family: Museo;
-}
-#aboutandy {
-	background:url(../img/about-small-2.jpg) no-repeat;
-	background-size:100%;
-	height:400px;
-}
+/*========Rule Section Ends========*/
 
-#aboutandy p {
-	color:#fff;	
-}
-/* ============================================================================================================
-	End of KeeKay's Stuff
-============================================================================================================*/
-
-
-
-
-#test li a {
-	color: #fff;
-	background-color: transparent;
-}
-#test li a:hover {
-	background-color: transparent;
-	border: 1px solid #f37721;
-}
-#test li a:active {
-	background-color: #f37721;
-}
 .button {
 	border:2px solid #f37721;
 	color:#f37721;
@@ -307,9 +290,7 @@ h2 {
 .top-bar {
 	height: 2.95em;
 }
-.bg-test {
-	height: 25em;
-}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: "museo slab";
 }
@@ -335,7 +316,6 @@ footer {
 	padding:1.3em 1.3em 0 0;
 }
 
-
 #footer{ 
 	text-align:center; 
 	
@@ -345,13 +325,10 @@ footer {
 	display:inline-block;
 	}
 
-
 footer small {
 	margin-top:10em; 
 	color:#fff;
 }
-
-
 /*-----------------------
 			END OF FOOTER
 --------------------------*/
@@ -366,10 +343,8 @@ img {
 	height: auto;
 }
 
-
-
+/*=========About Me Section========*/
 #aboutandy h2 {
-	color:#f37721;
 	max-width:4.9em;
 	padding:2.5em 0 0 0;
 }
@@ -379,6 +354,7 @@ img {
 	line-height:1.4em;
 	max-width:13em;
 }
+/*=========About Me Section Ends========*/
 
 #library-header {
 	font-size: 2em;
@@ -419,13 +395,9 @@ iframe {
 	height: 8em;
 }
 
-#streamc {
-	width: 100%;
-}
 #chat {
 	display: none;
 }
-
 
 .menu {
 	height:auto;
@@ -444,13 +416,6 @@ form {
 	width:18em;
 	
 }
-
-#footer-icons a {
-	
-}
-
-
-
 
 }
 
@@ -482,7 +447,6 @@ div p {
 .top-margin {
 	margin-top: 1.2em;
 }
-
 }
 
 /*Large screens
@@ -501,14 +465,15 @@ div p {
 	margin-top: 1.75em;
 }
 
+/*=========About Me Section========*/
 #aboutandy h2 {
-	color:#f37721;
 	padding: 1.2em 0 0 .9em;
 }
 
 #aboutandy p {
 	padding: .5em 0 0 1.7em;
 }
+/*=========About Me Ends========*/
 
 /* min-width 1025px and max-width 1440px, use when QAing large screen-only issues */
 @media only screen and (min-width: 64.063em) and (max-width: 90em) {
