@@ -182,6 +182,11 @@ form {
 .hero p {
 	text-align:center;
 }
+
+#footer{ 
+	text-align:center; 
+}
+
 }
 /*============================================================================================================
 	End of Header / Hero
@@ -317,18 +322,16 @@ footer {
 	padding:1.3em 1.3em 0 0;
 }
 
-#footer{ 
-	text-align:center; 
-	
-}
-
 #footer ul li {
 	display:inline-block;
 	}
 
 footer small {
-	margin-top:10em; 
 	color:#fff;
+}
+
+#copyright {
+	padding:2em 1em 0 0; 
 }
 /*-----------------------
 			END OF FOOTER
@@ -416,6 +419,10 @@ h4 {
 form {
 	width:18em;
 	
+}
+
+#copyright {
+	padding:.3em 0 .5em 0; 
 }
 
 }
