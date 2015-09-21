@@ -433,14 +433,6 @@ min-width 641px, medium screens */
 .top-margin {
 	margin-top: 4.5em;
 }
-#chat {
-	width: 600px;
-	margin: 0 auto;
-	top: 0;
-}
-iframe {
-	height: 500px;
-}
 }
 
 /* Tablet Size
@@ -455,6 +447,14 @@ div p {
 }
 .top-margin {
 	margin-top: 1.2em;
+}
+#chat {
+	width: 600px;
+	margin: 0 auto;
+	top: 0;
+}
+iframe {
+	height: 500px;
 }
 }
 
