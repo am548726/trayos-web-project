@@ -507,13 +507,13 @@ div p {
 
 /* min-width 1441px and max-width 1920px, use when QAing xlarge screen-only issues */
 @media only screen and (min-width: 90.063em) and (max-width: 120em) {
+	.hero {
+	background: url(../img/hero-keyboard-xxl) no-repeat center top;
+	background-size: 100%;
+}
 }
 
 /*XXLarge screens
   min-width 1921px, xxlarge screens */
 @media only screen and (min-width: 120.063em) {
-	.hero {
-	background: url(../img/hero-keyboard-xxl) no-repeat center top;
-	background-size: 100%;
-}
 }
