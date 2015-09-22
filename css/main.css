@@ -512,4 +512,8 @@ div p {
 /*XXLarge screens
   min-width 1921px, xxlarge screens */
 @media only screen and (min-width: 120.063em) {
+	.hero {
+	background: url(../img/hero-keyboard-xxl) no-repeat center top;
+	background-size: 100%;
+}
 }
