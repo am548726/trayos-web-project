@@ -194,7 +194,7 @@ form {
 
 /*========About Me Starts========*/
 h2 {
-	font-family: Museo;
+	font-family:"Museo Slab";
 }
 #aboutandy {
 	background:url(../img/about-small-2.jpg) no-repeat;
@@ -204,6 +204,7 @@ h2 {
 
 #aboutandy p {
 	color:#fff;	
+	font-family: "Museo Slab";
 }
 /*========About Me Ends========*/
 
